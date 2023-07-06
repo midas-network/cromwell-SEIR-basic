@@ -86,4 +86,4 @@ mod <- dcm(param, init, control)
 mod
 
 ## ----dcmSi2gPlot---------------------------------------------------------
-plot(mod)
+write.csv(mod, "dcmSi2gPlot.csv")
